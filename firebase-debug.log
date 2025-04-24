@@ -1,0 +1,51 @@
+[debug] [2025-04-24T15:51:01.850Z] ----------------------------------------------------------------------
+[debug] [2025-04-24T15:51:01.856Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\Documents\SE\githubprctice2\GitHubActionPractice2\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-24T15:51:01.857Z] CLI Version:   14.2.1
+[debug] [2025-04-24T15:51:01.858Z] Platform:      win32
+[debug] [2025-04-24T15:51:01.858Z] Node Version:  v20.17.0
+[debug] [2025-04-24T15:51:01.859Z] Time:          Thu Apr 24 2025 22:51:01 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-24T15:51:01.859Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-24T15:51:02.205Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-24T15:51:02.206Z] > authorizing via signed-in user (mukiimpsk@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Documents\SE\githubprctice2\GitHubActionPractice2
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-24T15:51:04.627Z] Using project from CLI flag: githubpractice-5208d
+[debug] [2025-04-24T15:51:04.633Z] Checked if tokens are valid: true, expires at: 1745512312855
+[debug] [2025-04-24T15:51:04.634Z] Checked if tokens are valid: true, expires at: 1745512312855
+[debug] [2025-04-24T15:51:04.640Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d [none]
+[debug] [2025-04-24T15:51:05.389Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d 200
+[debug] [2025-04-24T15:51:05.389Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d {"projectId":"githubpractice-5208d","projectNumber":"380577300790","displayName":"githubpractice","name":"projects/githubpractice-5208d","resources":{"hostingSite":"githubpractice-5208d"},"state":"ACTIVE","etag":"1_bf7ab3c1-9c15-412d-bb5c-ccd2626d12aa"}
+[info] i  Using project githubpractice-5208d (githubpractice) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-24T15:51:05.418Z] Checked if tokens are valid: true, expires at: 1745512312855
+[debug] [2025-04-24T15:51:05.418Z] Checked if tokens are valid: true, expires at: 1745512312855
+[debug] [2025-04-24T15:51:05.419Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d [none]
+[debug] [2025-04-24T15:51:05.949Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d 200
+[debug] [2025-04-24T15:51:05.949Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubpractice-5208d {"projectId":"githubpractice-5208d","projectNumber":"380577300790","displayName":"githubpractice","name":"projects/githubpractice-5208d","resources":{"hostingSite":"githubpractice-5208d"},"state":"ACTIVE","etag":"1_bf7ab3c1-9c15-412d-bb5c-ccd2626d12aa"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
